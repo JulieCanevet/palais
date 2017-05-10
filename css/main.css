@@ -94,14 +94,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.julie1
+{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
 
-
-
-
-
-
-
-
+.collec, .visit, svg
+{
+  text-align: center;
+  margin-top: 3em;
+  margin: auto;
+}
 
 
 
