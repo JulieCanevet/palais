@@ -105,7 +105,10 @@ textarea {
   text-align: center;
   height: 700px;
 }
-
+.collec
+{
+  /*background-color: blue;*/
+}
 .collec, .visit
 {
   display: flex;
@@ -116,11 +119,11 @@ textarea {
 .visit
 {
   margin-bottom: 2em;
+  /*background-color: red;*/
 }
 
 svg
 {
-  width: 50%;
   margin: auto;
 }
 
@@ -138,17 +141,25 @@ svg
 
 .tablette
 {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 6em;
+  display: block;
 }
-.tablette h2
+.julie1 h2
 {
   font-size: 4rem;
 }
 .julie1
 {
-  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.visit, .collec
+{
+  width: 50%;
+  padding: 2em;
+  line-height: 2em;
 }
 
 }
