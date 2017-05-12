@@ -125,7 +125,7 @@ textarea {
   margin-bottom: 2em;
 }
 
-svg
+.julie1 svg
 {
   margin: auto;
 }
@@ -136,8 +136,13 @@ svg
 }
 .mobile
 {
-  display: block;
+  display: flex;
 }
+
+
+
+
+
 
 @media (min-width: 768px) {
 .mobile, .julie1 h1
@@ -157,6 +162,8 @@ svg
 {
   font-size: 2rem;
 }
+
+
 .julie1
 {
   display: flex;
