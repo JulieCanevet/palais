@@ -140,7 +140,11 @@ textarea {
 }
 
 
-
+.carousel-caption
+{
+  width: 75%;
+  margin: auto;
+}
 
 
 
