@@ -139,11 +139,11 @@ textarea {
   display: flex;
 }
 
-
 .carousel-caption
 {
   width: 75%;
   margin: auto;
+  background-color: red;
 }
 
 
