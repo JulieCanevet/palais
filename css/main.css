@@ -94,24 +94,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* start work Madjidgo*/
-/*header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:active {
+/* start header madjidgo*/
+header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:active {
     color: #D8383F;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-}*/
+}
 
 .navbar-inverse .navbar-nav .active > .nav-link:hover, .navbar-inverse .navbar-nav .active > .nav-link:focus ,
-.navbar-inverse .navbar-nav .active > .nav-link:active, .navbar-inverse .navbar-nav .nav-link:hover{
+.navbar-inverse .navbar-nav .active > .nav-link:active, .navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-brand img:hover{
      color: #D8383F;
      transition: all 0.3s ease 0s;
      border:0px solid black;
 
 }
 
-.bg-inverse{
-    height: 80px;
-}
+
 #filtersubmit {
     position: relative;
     z-index: 1;
@@ -120,7 +119,38 @@ textarea {
     color: #7B7B7B;
     cursor:pointer;
     width: 0;
+    height: 20px;
 }
+/*end header*/
+
+/*footer  start madjidgo*/
+footer {
+    width: 100%;
+    padding: 85px 90px 0;
+    background-color: #1D1D1E;
+    color: #FFF;
+}
+footer a{
+    color:#fff;
+
+}
+footer a:hover{
+    color: #D8383F;
+     transition: all 0.3s ease 0s;
+     border:0px solid black;
+     text-decoration:none;
+}
+
+footer p{
+    font-size: 32px;
+}
+footer .social li{
+    font-size: 32px;
+    font-size: 2em;
+    list-style: none;
+
+/*end footer*/
+
 
 
 
