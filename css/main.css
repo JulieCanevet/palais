@@ -112,7 +112,7 @@ header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:act
 
 
 #filtersubmit {
-    position: relative;
+    position: fixed;
     z-index: 1;
     left: -25px;
     top: 1px;
@@ -123,7 +123,7 @@ header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:act
 }
 /*end header*/
 
-/*footer  start madjidgo*/
+/*footer desktop start madjidgo*/
 footer {
     width: 100%;
     padding: 85px 90px 0;
@@ -143,13 +143,29 @@ footer a:hover{
 
 footer p{
     font-size: 32px;
+    font-family: "novecento_widebook";
+
+font-size: 1.2rem;
+
 }
 footer .social li{
     font-size: 32px;
     font-size: 2em;
     list-style: none;
 
-/*end footer*/
+}
+
+ footer  .mecenat{
+    text-align: right;
+    color: #7B7C7E;
+    margin-top: 35px;
+    padding-bottom: 25px;
+}
+footer .icon{
+    color: #fff;
+}
+
+/*end footer desktop*/
 
 
 
