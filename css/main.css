@@ -109,6 +109,10 @@ header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:act
      border:0px solid black;
 
 }
+nav a{
+    font-size: 20px;
+    padding: 3em;
+}
 
 
 #filtersubmit {
@@ -142,10 +146,10 @@ footer a:hover{
 }
 
 footer p{
-    font-size: 32px;
+    font-size: 20px;
     font-family: "novecento_widebook";
 
-font-size: 1.2rem;
+
 
 }
 footer .social li{
@@ -166,7 +170,22 @@ footer .icon{
 }
 
 /*end footer desktop*/
+/*@media(min-width: 768px){
+    
+   footer a {
+    line-height: 2.8rem;
+    
+    font-size: 19px;
+}
+@media (min-width: 900px) {
+    
 
+  footer a {
+    line-height: 2.8rem;
+    
+    font-size: 12px;
+}
+}*/
 
 
 
