@@ -125,6 +125,14 @@ nav a{
     width: 0;
     height: 20px;
 }
+header i{
+    color: #fff;
+
+}
+header i:hover, header p:hover{
+   color: #D8383F;
+     transition: all 0.3s ease 0s;
+}
 /*end header*/
 
 /*footer desktop start madjidgo*/
@@ -148,10 +156,8 @@ footer a:hover{
 footer p{
     font-size: 20px;
     font-family: "novecento_widebook";
-
-
-
 }
+
 footer .social li{
     font-size: 32px;
     font-size: 2em;
@@ -164,28 +170,17 @@ footer .social li{
     color: #7B7C7E;
     margin-top: 35px;
     padding-bottom: 25px;
+    margin-left: 50%;
+
+}
+.mecenat p{
+    font-size: 12px;
+    padding: 2em;
 }
 footer .icon{
     color: #fff;
 }
 
-/*end footer desktop*/
-/*@media(min-width: 768px){
-    
-   footer a {
-    line-height: 2.8rem;
-    
-    font-size: 19px;
-}
-@media (min-width: 900px) {
-    
-
-  footer a {
-    line-height: 2.8rem;
-    
-    font-size: 12px;
-}
-}*/
 
 
 
