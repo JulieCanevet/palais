@@ -125,7 +125,7 @@ nav a{
     width: 0;
     height: 20px;
 }
-header i{
+header i, footer a,footer{
     color: #fff;
 
 }
@@ -140,12 +140,9 @@ footer {
     width: 100%;
     padding: 85px 90px 0;
     background-color: #1D1D1E;
-    color: #FFF;
+    
 }
-footer a{
-    color:#fff;
 
-}
 footer a:hover{
     color: #D8383F;
      transition: all 0.3s ease 0s;
