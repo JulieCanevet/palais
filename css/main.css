@@ -94,6 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* HEADER MADJID */
 /* start header madjidgo*/
 header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:active {
     color: #D8383F;
@@ -107,13 +108,11 @@ header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:act
      color: #D8383F;
      transition: all 0.3s ease 0s;
      border:0px solid black;
-
 }
 nav a{
     font-size: 20px;
     padding: 3em;
 }
-
 
 #filtersubmit {
     position: fixed;
@@ -131,16 +130,74 @@ header i, footer a,footer{
 }
 header i:hover, header p:hover{
    color: #D8383F;
-     transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 /*end header*/
+
+/* PREMiERE SECTION JULIE */
+.julie1
+{
+  background-image: url(../img/section1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  height: 700px;
+}
+
+.julie1 h2
+{
+  font-size: 2.5rem;
+}
+
+.julie p
+{
+  font-size: 1.5rem;
+}
+
+.collec, .visit
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.visit
+{
+  margin-bottom: 2em;
+}
+
+.julie1 svg
+{
+  margin: auto;
+}
+
+/* CAROUSEL PARTIE JULIE */
+.tablette
+{
+  display: none;
+}
+.mobile
+{
+  display: flex;
+}
+
+.carousel-caption
+{
+  width: 75%;
+  margin: auto;
+  height: 80%;
+}
 
 /*footer desktop start madjidgo*/
 footer {
     width: 100%;
     padding: 85px 90px 0;
     background-color: #1D1D1E;
-    
+
 }
 
 footer a:hover{
@@ -183,12 +240,42 @@ footer .icon{
 
 
 
+@media (min-width: 768px) {
+.mobile, .julie1 h1
+{
+  display: none;
+}
 
+.tablette
+{
+  display: block;
+}
+.julie1 h2
+{
+  font-size: 4rem;
+}
+.julie p
+{
+  font-size: 2rem;
+}
 
+.julie1
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.visit, .collec
+{
+  width: 50%;
+  padding: 2em;
+  line-height: 2em;
+  margin: auto;
+}
 
-
-
+}
 
 
 
