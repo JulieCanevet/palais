@@ -94,6 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+<<<<<<< HEAD
 .julie1
 {
   background-image: url(../img/section1.png);
@@ -128,6 +129,90 @@ textarea {
 .julie1 svg
 {
   margin: auto;
+=======
+/* start header madjidgo*/
+header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:active {
+    color: #D8383F;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-inverse .navbar-nav .active > .nav-link:hover, .navbar-inverse .navbar-nav .active > .nav-link:focus ,
+.navbar-inverse .navbar-nav .active > .nav-link:active, .navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-brand img:hover{
+     color: #D8383F;
+     transition: all 0.3s ease 0s;
+     border:0px solid black;
+
+}
+nav a{
+    font-size: 20px;
+    padding: 3em;
+}
+
+
+#filtersubmit {
+    position: fixed;
+    z-index: 1;
+    left: -25px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+    height: 20px;
+}
+header i, footer a,footer{
+    color: #fff;
+
+}
+header i:hover, header p:hover{
+   color: #D8383F;
+     transition: all 0.3s ease 0s;
+}
+/*end header*/
+
+/*footer desktop start madjidgo*/
+footer {
+    width: 100%;
+    padding: 85px 90px 0;
+    background-color: #1D1D1E;
+    
+}
+
+footer a:hover{
+    color: #D8383F;
+     transition: all 0.3s ease 0s;
+     border:0px solid black;
+     text-decoration:none;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: "novecento_widebook";
+}
+
+footer .social li{
+    font-size: 32px;
+    font-size: 2em;
+    list-style: none;
+
+}
+
+ footer  .mecenat{
+    text-align: right;
+    color: #7B7C7E;
+    margin-top: 35px;
+    padding-bottom: 25px;
+    margin-left: 50%;
+
+}
+.mecenat p{
+    font-size: 12px;
+    padding: 2em;
+}
+footer .icon{
+    color: #fff;
+>>>>>>> fb8909c4e2cd9698d6d13f8a689871b73d846835
 }
 
 .tablette
