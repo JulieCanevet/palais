@@ -110,8 +110,9 @@ header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:act
      border:0px solid black;
 }
 nav a{
-    font-size: 20px;
+    font-size: 16px;
     padding: 3em;
+    margin-right: 1.5em;
 }
 
 #filtersubmit {
@@ -135,6 +136,7 @@ header i:hover, header p:hover{
 /*end header*/
 
 /* PREMiERE SECTION JULIE */
+/* Réglage du container premiere section */
 .julie1
 {
   background-image: url(../img/section1.png);
@@ -147,16 +149,19 @@ header i:hover, header p:hover{
   height: 700px;
 }
 
+/* Réglage des titres */
 .julie1 h2
 {
   font-size: 2.5rem;
 }
 
+/* Réglage des paragraphes */
 .julie p
 {
   font-size: 1.5rem;
 }
 
+/* Réglage des articles Collection et Visiter */
 .collec, .visit
 {
   display: flex;
@@ -170,6 +175,7 @@ header i:hover, header p:hover{
   margin-bottom: 2em;
 }
 
+/* Réglage des traits autour des articles */
 .julie1 svg
 {
   margin: auto;
@@ -185,6 +191,7 @@ header i:hover, header p:hover{
   display: flex;
 }
 
+/* Réglage des textes sur les photos carousel */
 .carousel-caption
 {
   width: 75%;
@@ -240,6 +247,7 @@ footer .icon{
 
 
 @media (min-width: 768px) {
+/* Version mobile des articles */
 .mobile, .julie1 h1
 {
   display: none;
