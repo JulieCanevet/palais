@@ -108,13 +108,11 @@ header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:act
      color: #D8383F;
      transition: all 0.3s ease 0s;
      border:0px solid black;
-
 }
 nav a{
     font-size: 20px;
     padding: 3em;
 }
-
 
 #filtersubmit {
     position: fixed;
@@ -132,7 +130,7 @@ header i, footer a,footer{
 }
 header i:hover, header p:hover{
    color: #D8383F;
-     transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 /*end header*/
 
