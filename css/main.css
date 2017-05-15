@@ -94,42 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-<<<<<<< HEAD
-.julie1
-{
-  background-image: url(../img/section1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  height: 700px;
-}
-.julie1 h2
-{
-  font-size: 2.5rem;
-}
-.julie p
-{
-  font-size: 1.5rem;
-}
-.collec, .visit
-{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 2em;
-}
-.visit
-{
-  margin-bottom: 2em;
-}
-
-.julie1 svg
-{
-  margin: auto;
-=======
+/* HEADER MADJID */
 /* start header madjidgo*/
 header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:active {
     color: #D8383F;
@@ -171,12 +136,70 @@ header i:hover, header p:hover{
 }
 /*end header*/
 
+/* PREMiERE SECTION JULIE */
+.julie1
+{
+  background-image: url(../img/section1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  height: 700px;
+}
+
+.julie1 h2
+{
+  font-size: 2.5rem;
+}
+
+.julie p
+{
+  font-size: 1.5rem;
+}
+
+.collec, .visit
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.visit
+{
+  margin-bottom: 2em;
+}
+
+.julie1 svg
+{
+  margin: auto;
+}
+
+/* CAROUSEL PARTIE JULIE */
+.tablette
+{
+  display: none;
+}
+.mobile
+{
+  display: flex;
+}
+
+.carousel-caption
+{
+  width: 75%;
+  margin: auto;
+  height: 80%;
+}
+
 /*footer desktop start madjidgo*/
 footer {
     width: 100%;
     padding: 85px 90px 0;
     background-color: #1D1D1E;
-    
+
 }
 
 footer a:hover{
@@ -212,24 +235,9 @@ footer .social li{
 }
 footer .icon{
     color: #fff;
->>>>>>> fb8909c4e2cd9698d6d13f8a689871b73d846835
 }
 
-.tablette
-{
-  display: none;
-}
-.mobile
-{
-  display: flex;
-}
 
-.carousel-caption
-{
-  width: 75%;
-  margin: auto;
-  height: 80%;
-}
 
 
 
@@ -251,7 +259,6 @@ footer .icon{
 {
   font-size: 2rem;
 }
-
 
 .julie1
 {
