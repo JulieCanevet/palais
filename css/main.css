@@ -223,7 +223,10 @@ footer .social li{
     font-size: 32px;
     font-size: 2em;
     list-style: none;
-
+}
+footer img{
+  width: 20%;
+}
 
 /*div container-fluid*/
 .container-fluid{
@@ -293,13 +296,6 @@ img{
     width: 100%;
 }
 
-/*.easy{
-    position: relative;
-    background-image: url("../img/two.jpg");
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 100%;
-}*/
 
 }
 
@@ -309,7 +305,7 @@ img{
     color: #7B7C7E;
     margin-top: 35px;
     padding-bottom: 25px;
-    margin-left: 50%;
+   
 
 }
 .mecenat p{
