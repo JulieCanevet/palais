@@ -287,7 +287,6 @@ img{
     color: #7B7C7E;
     margin-top: 35px;
     padding-bottom: 25px;
-    background-color: red;
 }
 
 .mecenat p{
@@ -295,6 +294,7 @@ img{
     padding: 2em;
 
 }
+
 footer .icon{
     color: #fff;
 }
