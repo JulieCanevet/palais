@@ -204,6 +204,34 @@ header i:hover, header p:hover{
 }
 
 
+/*footer desktop start madjidgo*/
+footer {
+    width: 100%;
+    padding: 85px 90px 0;
+    background-color: #1D1D1E;
+
+}
+
+footer a:hover{
+    color: #D8383F;
+     transition: all 0.3s ease 0s;
+     border:0px solid black;
+     text-decoration:none;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: "novecento_widebook";
+}
+
+footer .social li{
+    font-size: 32px;
+    font-size: 2em;
+    list-style: none;
+}
+footer img{
+  width: 20%;
+}
 
 /*div container-fluid*/
 .container-fluid{
@@ -272,13 +300,6 @@ img{
     width: 100%;
 }
 
-/*.easy{
-    position: relative;
-    background-image: url("../img/two.jpg");
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 100%;
-}*/
 
 }
 
