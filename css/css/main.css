@@ -163,16 +163,13 @@ img{
     width: 100%;
 }
 
-/*.easy{
+.easy{
     position: relative;
     background-image: url("../img/two.jpg");
     background-repeat: no-repeat;
     height: 350px;
     width: 100%;
-}*/
-
-
-
+}
 
 .oeuvre .title, .title2{
     position: absolute;
