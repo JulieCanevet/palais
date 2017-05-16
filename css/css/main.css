@@ -94,136 +94,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* HEADER MADJID */
-/* start header madjidgo*/
-header .buttonMenu a:hover, header .buttonMenu a:focus, header .buttonMenu a:active {
-    color: #D8383F;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.navbar-inverse .navbar-nav .active > .nav-link:hover, .navbar-inverse .navbar-nav .active > .nav-link:focus ,
-.navbar-inverse .navbar-nav .active > .nav-link:active, .navbar-inverse .navbar-nav .nav-link:hover,
-.navbar-brand img:hover{
-     color: #D8383F;
-     transition: all 0.3s ease 0s;
-     border:0px solid black;
-}
-nav a{
-    font-size: 16px;
-    padding: 3em;
-    margin-right: 1.5em;
-}
-
-#filtersubmit {
-    position: fixed;
-    z-index: 1;
-    left: -25px;
-    top: 1px;
-    color: #7B7B7B;
-    cursor:pointer;
-    width: 0;
-    height: 20px;
-}
-header i, footer a,footer{
-    color: #fff;
-
-}
-header i:hover, header p:hover{
-   color: #D8383F;
-    transition: all 0.3s ease 0s;
-}
-/*end header*/
-
-/* PREMiERE SECTION JULIE */
-/* Réglage du container premiere section */
-.julie1
-{
-  background-image: url(../img/section1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  height: 700px;
-}
-
-/* Réglage des titres */
-.julie1 h2
-{
-  font-size: 2.5rem;
-}
-
-/* Réglage des paragraphes */
-.julie p
-{
-  font-size: 1.5rem;
-}
-
-/* Réglage des articles Collection et Visiter */
-.collec, .visit
-{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 2em;
-}
-
-.visit
-{
-  margin-bottom: 2em;
-}
-
-/* Réglage des traits autour des articles */
-.julie1 svg
-{
-  margin: auto;
-}
-
-/* CAROUSEL PARTIE JULIE */
-.tablette
-{
-  display: none;
-}
-.mobile
-{
-  display: flex;
-}
-
-/* Réglage des textes sur les photos carousel */
-.carousel-caption
-{
-  width: 75%;
-  margin: auto;
-  height: 80%;
-}
-
-/*footer desktop start madjidgo*/
-footer {
-    width: 100%;
-    padding: 85px 90px 0;
-    background-color: #1D1D1E;
-
-}
-
-footer a:hover{
-    color: #D8383F;
-     transition: all 0.3s ease 0s;
-     border:0px solid black;
-     text-decoration:none;
-}
-
-footer p{
-    font-size: 20px;
-    font-family: "novecento_widebook";
-}
-
-footer .social li{
-    font-size: 32px;
-    font-size: 2em;
-    list-style: none;
-
 
 /*div container-fluid*/
 .container-fluid{
@@ -281,7 +151,7 @@ img{
 
 
 .row{
-    margin-top: 15px;
+    margin-top: 15px; 
 }
 
 /*image de fond: premiere image avec le titre: "faux bosh, vrai chef d'oeuvre"*/
@@ -293,34 +163,13 @@ img{
     width: 100%;
 }
 
-/*.easy{
+.easy{
     position: relative;
     background-image: url("../img/two.jpg");
     background-repeat: no-repeat;
     height: 350px;
     width: 100%;
-}*/
-
 }
-
-
- footer  .mecenat{
-    text-align: right;
-    color: #7B7C7E;
-    margin-top: 35px;
-    padding-bottom: 25px;
-    margin-left: 50%;
-
-}
-.mecenat p{
-    font-size: 12px;
-    padding: 2em;
-}
-footer .icon{
-    color: #fff;
-}
-/*end footer*/
-
 
 .oeuvre .title, .title2{
     position: absolute;
@@ -366,7 +215,6 @@ footer .icon{
 
 
 
-
 .imgfour{
     position: relative;
     background-image: url("../img/three.jpg");
@@ -375,43 +223,9 @@ footer .icon{
 }
 
 
-@media (min-width: 768px) {
-/* Version mobile des articles */
-.mobile, .julie1 h1
-{
-  display: none;
-}
 
-.tablette
-{
-  display: block;
-}
-.julie1 h2
-{
-  font-size: 4rem;
-}
-.julie p
-{
-  font-size: 2rem;
-}
 
-.julie1
-{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.visit, .collec
-{
-  width: 50%;
-  padding: 2em;
-  line-height: 2em;
-  margin: auto;
-}
-
-}
 
 
 
